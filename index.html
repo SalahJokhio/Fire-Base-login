@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="button-container" id="auth_container">
+            <h1>Welcome to the Sign Up Page</h1>
+            <div class="signup-container">
+                <h2>Sign Up</h2>
+                <!-- <input type="text" id="Username" placeholder="Username" class="input-field"> -->
+                <input type="email" id="signup_email" placeholder="Email" class="input-field">
+                <input type="password" id="signup_password" placeholder="Password" class="input-field">
+                <button class="btn" id="signup_btn">Sign Up</button>
+            </div>
+
+            <div class="signin-container">
+                <h2>Sign In</h2>
+                <input type="text" placeholder="Username" id="email_user" class="input-field">
+                <input type="password" placeholder="Password" id="password_user" class="input-field">
+                <button class="btn" id="signin_btn">Sign In</button>
+            </div>
+
+        </div>
+
+        <div class="user-container" id="user_container">
+            <h1 id="user_email"></h1>
+            <button class="btn" id="logout_btn">Log Out</button>
+        </div>
+    </div>
+
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
